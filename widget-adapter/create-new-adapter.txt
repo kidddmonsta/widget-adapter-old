@@ -1,0 +1,36 @@
+Создание нового адаптера
+1)Для работы роутинга нужно создать:
+    1. Директорию (если отсутствует) с типом адаптера (line, bar и т.д.)
+    2. Директорию с брендом (eChart, devExpress и т.д.)
+
+2)В директории с адаптером (названием бренда):
+    1.  Описываем все дефолтные настройки в файле widgetOptions.json
+    Пример:
+    {
+      "seriesSymbol": "triangle",
+      "seriesSymbolSize": 20,
+      "seriesLineStyleType": "dashed",
+      "titleShow": true,
+      "titleText": "Линейный график",
+      "titleTextStyleColor": "#333",
+      "titleTextStyleFontStyle": "italic",
+      "titleTextStyleFontWeight": "bold",
+      "titleTextStyleFontFamily": "sans-serif",
+      "titleTextStyleFontSize": "18",
+      "legendShow": true
+      }
+3) Получаем id виджета из параметров запроса.
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var wid = urlParams.get('wid');
+
+4) Получаем структуру виджета и данные
+Берем из нее свойство widgetOptions и инициализируем настройки адаптера
+По id аналитического запроса получаем данные которые необходимо визуализировать
+Преобразуем данные в формат необходимый для "адаптера".
+Рисуем :)
+
+
+
+
+

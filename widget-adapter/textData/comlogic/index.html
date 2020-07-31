@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Text Editor</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+    <script src="prepareData.js"></script>
+    <script src="index.js"></script>
+    <script src="config.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+<!--<div id="textContainer"></div>-->
+<div class="textContainer">
+    <span class="block-title"></span>
+    <span class="block-body"></span>
+</div>
+</body>
+<script>
+    render(".textContainer");
+</script>
+</html>

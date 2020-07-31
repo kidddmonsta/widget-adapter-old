@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Grid</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/19.2.6/css/dx.common.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/19.2.6/css/dx.light.css"/>
+    <script src="https://cdn3.devexpress.com/jslib/19.2.6/js/dx.all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/3.3.1/exceljs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js"></script>
+    <script src="data.js"></script>
+    <script src="DataAdapter.js"></script>
+    <script src="TableDataAdapter.js"></script>
+    <script src="TDAdapter.js"></script>
+    <script src="paginationAdapter.js"></script>
+    <script src="widgetSetting.js"></script>
+    <script src="moment.js"></script>
+    <script src="prepareData.js"></script>
+    <script src="index.js"></script>
+    <script src="config.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body class="dx-viewport">
+<div role="tablist" aria-multiselectable="true" class="accordion" id="main-container">
+    <div class="card">
+        <div class="card-header" role="tab">
+            <h6 class="mb-0">
+                <a id="title" data-toggle="collapse" data-parent="#accordion-first_graph"
+                   href="#collapseOne-first_graph"
+                   aria-expanded="true" aria-controls="collapseOne-first_graph">
+                    Линейный график
+                </a>
+            </h6>
+        </div>
+
+        <div id="collapseOne-first_graph" class="collapse show" role="tabpanel" aria-labelledby="heading-first_graph">
+            <div class="card-block">
+                <div class="container">
+                    <div id="gridContainer"></div>
+                    <div id="buttonContainer"></div>
+                    <!--<div class="options">
+                        <div class="caption">Options</div>
+                        <div class="option">
+                            <div id="autoExpand"></div>
+                        </div>
+                    </div>-->
+                    <div id="dataGridContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+    render("#gridContainer");
+    //widgetSetting();
+</script>
+</html>

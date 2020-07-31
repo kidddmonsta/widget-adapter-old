@@ -1,0 +1,64 @@
+{
+  "key": "AmountOfFinishedApps",
+  "timeInterval": "month",
+  "title_rus": "Аналитика по законченным заявкам",
+  "title_eng": "Analytics on finished apps",
+  "series": [
+    {
+      "Applications.time": "2020-01-01T00:00:00",
+      "Applications.type_ois": "ИЗ",
+      "Applications.duration": 9.68,
+      "Applications.IK_hours": 10,
+      "Applications.OC_hours": 30
+    },
+    {
+      "Applications.time": "2020-02-01T00:00:00",
+      "Applications.type_ois": "ИЗ",
+      "Applications.duration": 10,
+      "Applications.IK_hours": 30,
+      "Applications.OC_hours": 60
+    },
+    {
+      "Applications.time": "2020-03-01T00:00:00",
+      "Applications.type_ois": "ИЗ",
+      "Applications.duration": 7.5,
+      "Applications.IK_hours": 10,
+      "Applications.OC_hours": 120
+    },
+    {
+      "Applications.time": "2020-04-01T00:00:00",
+      "Applications.type_ois": "ИЗ",
+      "Applications.duration": 8.0,
+      "Applications.IK_hours": 40,
+      "Applications.OC_hours": 110
+    },
+    {
+      "Applications.time": "2020-01-01T00:00:00",
+      "Applications.type_ois": "ПМ",
+      "Applications.duration": 9.68,
+      "Applications.IK_hours": 14,
+      "Applications.OC_hours": 34
+    },
+    {
+      "Applications.time": "2020-02-01T00:00:00",
+      "Applications.type_ois": "ПМ",
+      "Applications.duration": 10,
+      "Applications.IK_hours": 25,
+      "Applications.OC_hours": 20
+    },
+    {
+      "Applications.time": "2020-03-01T00:00:00",
+      "Applications.type_ois": "ПМ",
+      "Applications.duration": 7.5,
+      "Applications.IK_hours": 32,
+      "Applications.OC_hours": 70
+    },
+    {
+      "Applications.time": "2020-04-01T00:00:00",
+      "Applications.type_ois": "ПМ",
+      "Applications.duration": 8.0,
+      "Applications.IK_hours": 66,
+      "Applications.OC_hours": 50
+    }
+  ]
+}

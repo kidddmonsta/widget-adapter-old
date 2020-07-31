@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- including ECharts file -->
+    <script src="jquery.min.js"></script>
+    <script src="moment.js"></script>
+    <script src="dataTool.min.js"></script>
+    <script src="echarts.js"></script>
+    <script src="echartsAdapter.js"></script>
+    <script src='ecStat.js'></script>
+    <script src='widgetOptions.js'></script>
+    <script src='index.js'></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <!-- <script src="echartsAdapter.js"></script>-->
+</head>
+<body>
+<!-- prepare a DOM container with width and height -->
+<div role="tablist" aria-multiselectable="true" class="accordion" id="main-container">
+    <div class="card">
+        <div class="card-header" role="tab">
+            <h6 class="mb-0">
+                <a id="title" data-toggle="collapse" data-parent="#accordion-first_graph" href="#collapseOne-first_graph"
+                   aria-expanded="true" aria-controls="collapseOne-first_graph">
+                    Линейный график
+                </a>
+            </h6>
+        </div>
+
+        <div id="collapseOne-first_graph" class="collapse show" role="tabpanel" aria-labelledby="heading-first_graph">
+            <div class="card-block">
+                <div id="main"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    // based on prepared DOM, initialize echarts instance
+    var width = $(window).width();
+    var height = $(window).height();
+    $("#main").css("width", width - 5);
+    $("#main").css("height", height - 50);
+    var chart = echarts.init(document.getElementById('main'));
+    chart.showLoading();
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var wid = urlParams.get('wid');
+
+    console.log(wid);
+    render(wid);
+    window.onresize = function () {
+        var width = $(window).width();
+        var height = $(window).height();
+        $("#main").css("width", width - 5);
+        $("#main").css("height", height - 50);
+        console.log('resize');
+        chart.resize();
+    };
+
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+#gridContainer {
+    width: 1000px;
+    height: auto;
+}
+
+#dataGridContainer {
+    width: 1000px;
+    height: auto;
+}
+
+.options {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(191, 191, 191, 0.15);
+}
+
+.caption {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.option {
+    margin-top: 10px;
+}
+.card-header {
+    background-color: #ffffff !important;
+}
+
+.card-block {
+    padding-bottom: 10px !important;
+}
+
+h6 {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+}
+
+.container {
+    padding: 0 !important;
+}

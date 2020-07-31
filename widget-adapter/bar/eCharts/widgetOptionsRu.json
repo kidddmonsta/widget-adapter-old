@@ -1,0 +1,174 @@
+[
+  {
+    "dataField": "tooltipDimensions",
+    "caption": "Измерения подсказки"
+  },
+  {
+    "dataField": "lineColors",
+    "caption": "Цвет линии"
+  },
+  {
+    "dataField": "seriesSymbol",
+    "caption": "Символ"
+  },
+  {
+    "dataField": "seriesSymbolSize",
+    "caption": "Размер символа"
+  },
+  {
+    "dataField": "seriesLineStyleType",
+    "caption": "Тип линии"
+  },
+  {
+    "dataField": "titleShow",
+    "caption": "Показать заголовок"
+  },
+  {
+    "dataField": "titleText",
+    "caption": "Текст заголовка"
+  },
+  {
+    "dataField": "titleTextStyleColor",
+    "caption": "Цвет текста заголовка"
+  },
+  {
+    "dataField": "titleTextStyleFontStyle",
+    "caption": "Шрифт текста заголовка"
+  },
+  {
+    "dataField": "titleTextStyleFontWeight",
+    "caption": "Выделение шрифта заголовка"
+  },
+  {
+    "dataField": "titleTextStyleFontFamily",
+    "caption": "Тип шрифта заголовка"
+  },
+  {
+    "dataField": "titleTextStyleFontSize",
+    "caption": "Размер шрифта заголовка"
+  },
+  {
+    "dataField": "legendShow",
+    "caption": "Показать легенду"
+  },
+  {
+    "dataField": "legendTitleGap",
+    "caption": "Отступ легенды"
+  },
+  {
+    "dataField": "legendTextStyleColor",
+    "caption": "Цвет текста легенды"
+  },
+  {
+    "dataField": "legendTextStyleFontStyle",
+    "caption": "Шрифт текста легенды"
+  },
+  {
+    "dataField": "legendTextStyleFontWight",
+    "caption": "Выделение текста легенды"
+  },
+  {
+    "dataField": "legendTextStyleFontFamily",
+    "caption": "Тип текста легенды"
+  },
+  {
+    "dataField": "legendTextStyleFontSize",
+    "caption": "Рзамер текста легенды"
+  },
+  {
+    "dataField": "gridTop",
+    "caption": "Отступ сверху"
+  },
+  {
+    "dataField": "gridLeft",
+    "caption": "Отступ слева"
+  },
+  {
+    "dataField": "gridRight",
+    "caption": "Отступ справа"
+  },
+  {
+    "dataField": "gridContainLabel",
+    "caption": "Отображать наименование"
+  },
+  {
+    "dataField": "xAxisShow",
+    "caption": "Показать ось Х"
+  },
+  {
+    "dataField": "xAxisName",
+    "caption": "Наименование оси Х"
+  },
+  {
+    "dataField": "xAxisNameTextStyleColor",
+    "caption": "Цвет текста наименования оси Х"
+  },
+  {
+    "dataField": "xAxisNameTextStyleFontStyle",
+    "caption": "Шрифт текста наименования оси Х"
+  },
+  {
+    "dataField": "xAxisNameTextStyleFontWeight",
+    "caption": "Выделение текста наименования оси Х"
+  },
+  {
+    "dataField": "xAxisNameTextStyleFontFamily",
+    "caption": "Тип текста наименования оси Х"
+  },
+  {
+    "dataField": "xAxisNameTextStyleFontSize",
+    "caption": "Размер текста наименования оси Х"
+  },
+  {
+    "dataField": "xAxisNameTextStyleAlign",
+    "caption": "Выравнивание текста наименования оси Х"
+  },
+  {
+    "dataField": "xAxisLineStyleType",
+    "caption": "Тип линии оси Х"
+  },
+  {
+    "dataField": "xAxisLineStyleColor",
+    "caption": "Цвет линии оси Х"
+  },
+  {
+    "dataField": "yAxisShow",
+    "caption": "Показать ось У"
+  },
+  {
+    "dataField": "yAxisName",
+    "caption": "Наименование оси У"
+  },
+  {
+    "dataField": "yAxisNameTextStyleColor",
+    "caption": "Цвет текста наименования оси У"
+  },
+  {
+    "dataField": "yAxisNameTextStyleFontStyle",
+    "caption": "Шрифт текста наименования оси У"
+  },
+  {
+    "dataField": "yAxisNameTextStyleFontWeight",
+    "caption": "Выделение текста наименования оси У"
+  },
+  {
+    "dataField": "yAxisNameTextStyleFontFamily",
+    "caption": "Тип текста наименования оси У"
+  },
+  {
+    "dataField": "yAxisNameTextStyleFontSize",
+    "caption": "Размер текста наименования оси У"
+  },
+  {
+    "dataField": "yAxisNameTextStyleAlign",
+    "caption": "Выравнивание текста наименования оси У"
+  },
+  {
+    "dataField": "yAxisLineStyleType",
+    "caption": "Тип линии оси У"
+  },
+  {
+    "dataField": "yAxisLineStyleColor",
+    "caption": "Цвет линии оси У"
+  }
+]

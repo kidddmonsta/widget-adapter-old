@@ -1,0 +1,20 @@
+{
+  "title": "Место по количеству заявок на изобретения",
+  "body": "11",
+  "width": "250px",
+  "widthBody": "260px",
+  "heightTitle": "40%",
+  "heightBody": "60%",
+  "fontColor": "white",
+  "backgroundColor": "#0154a6",
+  "fontFamily": "aakar",
+  "fontWeight": "normal",
+  "fontWeightBody": "bold",
+  "fontStyle": "oblique",
+  "fontSizeTitle": "23px",
+  "fontSizeBody": "73px",
+  "textAlign": "center",
+  "boxSizing": "border-box",
+  "wordBreak": "break-word",
+  "paddingTitle": "5px"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "key": "Applications.time",
+    "title_rus": "Дата",
+    "title_eng": "Period",
+    "unit_of_measurement_rus": "",
+    "unit_of_measurement_eng": ""
+  },
+  {
+    "key": "Applications.type_ois",
+    "title_rus": "Тип ОИС",
+    "title_eng": "OIS_TYPE",
+    "unit_of_measurement_rus": "",
+    "unit_of_measurement_eng": ""
+  },
+  {
+    "key": "Applications.duration",
+    "title_rus": "Средняя продолжительность рассмотрения Заявок ",
+    "title_eng": "Average time of Analysis",
+    "unit_of_measurement_rus": "",
+    "unit_of_measurement_eng": ""
+  },
+  {
+    "key": "Applications.IK_hours",
+    "title_rus": "Среднее время отправки ИК",
+    "title_eng": "Average time of output correspondence duration ",
+    "unit_of_measurement_rus": "",
+    "unit_of_measurement_eng": ""
+  },
+  {
+    "key": "Applications.OC_hours",
+    "title_rus": "Продолжительность до первой экспертизы по существу ",
+    "title_eng": "Average time of expert analysis  ",
+    "unit_of_measurement_rus": "",
+    "unit_of_measurement_eng": ""
+  }
+]

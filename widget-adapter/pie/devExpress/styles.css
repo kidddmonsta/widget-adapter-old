@@ -1,0 +1,25 @@
+#pie {
+    height: 440px;
+}
+
+#pie * {
+    margin: 0 auto;
+    margin-bottom: 15px !important;
+}
+
+.card-header {
+    background-color: #ffffff !important;
+}
+
+.card-block {
+    padding-bottom: 10px !important;
+}
+
+h6 {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+}
+
+.container {
+    padding: 0 !important;
+}
